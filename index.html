@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/be5428570f.js" crossorigin="anonymous"></script>
+
+    <!-- main css -->
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- navbar area start -->
+
+    <section>
+        <div class="container mt-3">
+            <nav class="navbar navbar-expand-lg navbar-light my-nav">
+                <div class="container">
+                    <div class="d-md-none d-sm-block d-block">
+                        <a class="navbar-brand text-color h1" href="#"> <img src="./assets/images/logo.png" alt="">
+                            Fruit Burst</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-color" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-color" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-color" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-color" href="#">All Fruits </a>
+                            </li>
+
+                        </ul>
+                        <div class="mx-auto  d-md-block d-block d-sm-none d-none">
+                            <a class="navbar-brand text-color h1" href="#"> <img src="./assets/images/logo.png" alt="">
+                                Fruit Burst</a>
+                        </div>
+
+                        <form class="d-flex">
+                            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="" type="submit"><i class="fas fa-search"></i></button> -->
+                            <div class="d-flex search-box">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn " type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- navbar area ends -->
+
+    <!-- Slider area start -->
+
+    <section>
+        <div class="slider-area">
+            <div class="container mt-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="single-item">
+                                <img class="d-block w-100" src="./assets/images/banner1.png">
+                                <div class="carousel-overlay">
+                                    <div class="carousel-caption d-block">
+                                        <div class="container">
+                                            <h1 class="fw-bolder"> Exotic tastes at your <br> doorstep </h1>
+                                            <p>We supply highly quality organic products</p>
+                                            <button class="btn btn-danger">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="single-item">
+                                <img class="d-block w-100" src="./assets/images/banner2.png">
+                                <div class="carousel-overlay">
+                                    <div class="carousel-caption d-block">
+                                        <div class="container">
+                                            <h1 class="fw-bolder"> Exotic tastes at your <br> doorstep </h1>
+                                            <p>We supply highly quality organic products</p>
+                                            <button class="btn btn-danger">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="single-item">
+                                <img class="d-block w-100" src="./assets/images/banner3.png">
+                                <div class="carousel-overlay">
+                                    <div class="carousel-caption d-block">
+                                        <div class="container">
+                                            <h1 class="fw-bolder"> Exotic tastes at your <br> doorstep </h1>
+                                            <p>We supply highly quality organic products</p>
+                                            <button class="btn btn-danger">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!-- <div class="single-item">
+                                <div class="carousel-caption">
+                                    <div class="container">
+                                        <h1> Exotic tastes at your <br> doorstep </h1>
+                                        <p>We supply highly quality organic products</p>
+                                        <button class="btn btn-danger">Shop Now</button>
+                                    </div>
+                                </div>
+                                <img class="d-block w-100" src="./assets/images/banner4.png" alt="First slide">
+                            </div> -->
+                            <div class="single-item">
+                                <img class="d-block w-100" src="./assets/images/banner4.png">
+                                <div class="carousel-overlay">
+                                    <div class="carousel-caption d-block">
+                                        <div class="container">
+                                            <h1> Exotic tastes at your <br> doorstep </h1>
+                                            <p>We supply highly quality organic products</p>
+                                            <button class="btn btn-danger">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <div class="carousel-btn">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </div>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <div class="carousel-btn">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slider area end -->
+
+    <!--small banner area start  -->
+
+    <section>
+        <div class="container">
+            <div class="container">
+                <div class="sm-banner-area d-md-flex d-sm-none d-none justify-content-center">
+                    <div class="single-sm-banner">
+                        <img src="./assets/images/fruit1.png" alt="">
+                        <p class="text-center">Strawberry</p>
+                    </div>
+                    <div class="single-sm-banner">
+                        <img src="./assets/images/fruit2.png" alt="">
+                        <p class="text-center">Orange</p>
+                    </div>
+                    <div class="single-sm-banner">
+                        <img src="./assets/images/fruit3.png" alt="">
+                        <p class="text-center">Mango</p>
+                    </div>
+                    <div class="single-sm-banner">
+                        <img src="./assets/images/fruit4.png" alt="">
+                        <p class="text-center">Strawberry</p>
+                    </div>
+                    <div class="single-sm-banner">
+                        <img src="./assets/images/fruit5.png" alt="">
+                        <p class="text-center">Mango</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--small banner area end  -->
+
+    <!-- Timer area start -->
+
+    <section>
+        <div class="deal-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <h1 class="fw-bolder">Deal of the day</h1>
+                            <p>
+                                Contrary to popular belief, is not simply random text. It has roots in a piece of
+                                classical
+                                Latin literature from 45 BC, making it over 2000 years old.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 offset-md-2">
+                        <div class="row justify-content-center">
+                            <div class="col-auto">
+                                <h1 id="days" class="timer">29 <i class="fa-solid fs-4 text fa-ellipsis-vertical"></i>
+                                </h1>
+                                <p class="label">Days</p>
+                            </div>
+                            <div class="col-auto">
+                                <h1 id="hours" class="timer">15 <i class="fa-solid fs-4 text fa-ellipsis-vertical"></i>
+                                </h1>
+                                <p class="label">Hours</p>
+                            </div>
+                            <div class="col-auto">
+                                <h1 id="minutes" class="timer">25 <i
+                                        class="fa-solid fs-4 text fa-ellipsis-vertical"></i></h1>
+                                <p class="label">Minutes</p>
+                            </div>
+                            <div class="col-auto">
+                                <h1 id="seconds" class="timer">08</h1>
+                                <div class="label">Seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Timer area ends -->
+
+    <!-- Card area start -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="single-card">
+                        <div class="">
+                            <img src="./assets/images/fruit6.png" class="img-fluid mb-3" alt="">
+                            <h5 class="mb-3">12.90$ - 18.85$</h5>
+                            <div class="dash mb-3"></div>
+                            <p class="mb-3">Apple</p>
+                        </div>
+                        <img src='./star.svg' alt="">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#productModal"
+                            class="text-danger text-decoration-none d-block mt-3">Details</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-card">
+                        <div class="">
+                            <img src="./assets/images/fruit7.png" class="img-fluid mb-3" alt="">
+                            <h5 class="mb-3">12.90$ - 18.85$</h5>
+                            <div class="dash mb-3"></div>
+                            <p class="mb-3">Orange</p>
+                        </div>
+                        <img src='./star.svg' alt="">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#productModal2"
+                            class="text-danger text-decoration-none d-block mt-3">Details</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-card">
+                        <div class="">
+                            <img src="./assets/images/fruit8.png" class="img-fluid mb-3" alt="">
+                            <h5 class="mb-3">12.90$ - 18.85$</h5>
+                            <div class="dash mb-3"></div>
+                            <p class="mb-3">Red Dragon</p>
+                        </div>
+                        <img src='./star.svg' alt="">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#productModal3"
+                            class="text-danger text-decoration-none d-block mt-3">Details</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="single-card">
+                        <div class="">
+                            <img src="./assets/images/fruit9.png" class="img-fluid mb-3" alt="">
+                            <h5 class="mb-3">12.90$ - 18.85$</h5>
+                            <div class="dash mb-3"></div>
+                            <p class="mb-3">Banana</p>
+                        </div>
+                        <img src='./star.svg' alt="">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#productModal4"
+                            class="text-danger text-decoration-none d-block mt-3">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-3">
+                <button class="btn btn-danger">Shop All</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Card area end -->
+
+    <!-- Modal area start -->
+
+    <section>
+        <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="./assets//images/fruit6.png" alt="Product Image" class="img-fluid">
+                        <h5 class="modal-title mt-2" id="productModalLabel">Apple</h5>
+                        <p class="my-3">Professional employees are there for you to pick the most amazing and fresh
+                            fruits.
+                        </p>
+                        <!-- Star Rating (You can use your star rating system here) -->
+                        <div class="mb-2">
+                            <img src="./star.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+
+        <div class="modal fade" id="productModal2" tabindex="-1" aria-labelledby="productModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="./assets//images/fruit7.png" alt="Product Image" class="img-fluid">
+                        <h5 class="modal-title mt-2" id="productModalLabel2">Orange</h5>
+                        <p class="my-3">Professional employees are there for you to pick the most amazing and fresh
+                            fruits.
+                        </p>
+                        <!-- Star Rating (You can use your star rating system here) -->
+                        <div class="mb-2">
+                            <img src="./star.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- model3 -->
+
+        <div class="modal fade" id="productModal3" tabindex="-1" aria-labelledby="productModalLabel3"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="./assets//images/fruit8.png" alt="Product Image" class="img-fluid">
+                        <h5 class="modal-title mt-2" id="productModalLabel3">Red Dragon</h5>
+                        <p class="my-3">Professional employees are there for you to pick the most amazing and fresh
+                            fruits.
+                        </p>
+                        <!-- Star Rating (You can use your star rating system here) -->
+                        <div class="mb-2">
+                            <img src="./star.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal 4 -->
+
+        <div class="modal fade" id="productModal4" tabindex="-1" aria-labelledby="productModalLabel4"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img src="./assets//images/fruit9.png" alt="Product Image" class="img-fluid">
+                        <h5 class="modal-title mt-2" id="productModalLabel4">Banana</h5>
+                        <p class="my-3">Professional employees are there for you to pick the most amazing and fresh
+                            fruits.
+                        </p>
+                        <!-- Star Rating (You can use your star rating system here) -->
+                        <div class="mb-2">
+                            <img src="./star.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal area end -->
+
+    <!-- Team section start -->
+
+    <section>
+        <div class="container">
+            <div class="team-area">
+                <div class="team-overlay">
+                    <div class="container">
+                        <div class="text-light text-center">
+                            <h3 class="mb-3">Meet the team section</h3>
+                            <p class="mb-3">
+                                Contrary to popular belief, is not simply random text. It has roots in a piece of
+                                classical
+                                <br>
+                                Latin literature from 45 BC, making it over 2000 years old.
+                            </p>
+
+                        </div>
+                        <div class="team-description">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="single-member text-center">
+                                        <img src="./assets/images/member1.png" alt="">
+                                        <h6 class="text-center text-light mt-2 mb-3">Awlad Hossain</h6>
+                                        <p class="text-light"> Fruits Expert </p>
+                                        <div class="social-icon text-center">
+                                            <img class="img-fluid me-3" src="./assets/icone/facebook.svg" alt="">
+                                            <img class="img-fluid me-2" src="./assets/icone/twitter.svg" alt="">
+                                            <img class="img-fluid" src="./assets/icone/linkedin.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single-member text-center">
+                                        <img src="./assets/images/member2.png" alt="">
+                                        <h6 class="text-center text-light mt-2 mb-3">Safia Chowdhury</h6>
+                                        <p class="text-light"> Fruits Expert </p>
+                                        <div class="social-icon text-center">
+                                            <img class="img-fluid me-3" src="./assets/icone/facebook.svg" alt="">
+                                            <img class="img-fluid me-2" src="./assets/icone/twitter.svg" alt="">
+                                            <img class="img-fluid" src="./assets/icone/linkedin.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="single-member text-center">
+                                        <img src="./assets/images/member3.png" alt="">
+                                        <h6 class="text-center text-light mt-2 mb-3">Rokib Hossain</h6>
+                                        <p class="text-light"> Fruits Expert </p>
+                                        <div class="social-icon text-center">
+                                            <img class="img-fluid me-3" src="./assets/icone/facebook.svg" alt="">
+                                            <img class="img-fluid me-2" src="./assets/icone/twitter.svg" alt="">
+                                            <img class="img-fluid" src="./assets/icone/linkedin.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="text-center">
+                                        <img src="./assets/images/member4.png" alt="">
+                                        <h6 class="text-center text-light mt-2 mb-3">Chaity</h6>
+                                        <p class="text-light"> Fruits Expert </p>
+                                        <div class="social-icon text-center">
+                                            <img class="img-fluid me-3" src="./assets/icone/facebook.svg" alt="">
+                                            <img class="img-fluid me-2" src="./assets/icone/twitter.svg" alt="">
+                                            <img class="img-fluid" src="./assets/icone/linkedin.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team section ends -->
+
+    <!-- Why choose us section start -->
+
+    <section>
+        <div class="container">
+            <div class="header-area">
+                <h1 class="text-center">Why Choose Us</h1>
+                <p class="text-center">
+                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                    literature
+                    from 45 BC, making it over 2000 years old.
+                </p>
+            </div>
+            <div class="why-choose-body">
+                <div class="row">
+                    <div class="col-md-4 mt-4 mt-md-0 order-md-2 order-sm-2 order-2">
+                        <div class="d-md-flex d-sm-block d-block">
+                            <div class="me-md-2">
+                                <img src="./assets/icone/chooseus1.svg" alt="">
+                            </div>
+                            <div>
+                                <h5> Dedicated Team </h5>
+                                <div class="why-dash"></div>
+                                <p class="mt-2">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-md-flex d-sm-block d-block">
+                            <div class="me-md-2">
+                                <img src="./assets/icone/chooseus2.svg" alt="">
+                            </div>
+                            <div>
+                                <h5> Dedicated Team </h5>
+                                <div class="why-dash"></div>
+                                <p class="mt-2">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-md-flex d-sm-block d-block">
+                            <div class="me-md-2">
+                                <img src="./assets/icone/chooseus3.svg" alt="">
+                            </div>
+                            <div>
+                                <h5> Dedicated Team </h5>
+                                <div class="why-dash"></div>
+                                <p class="mt-2">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0 order-md-2 order-sm-2 order-1">
+                        <img class="img-fluid rounded img" src="./assets/images/whychoose1.png" alt="">
+                    </div>
+                    <div class="col-md-4 order-md-2 order-sm-2 order-3">
+                        <div class="d-md-flex d-sm-block d-block">
+                            <div class="ms-2 d-sm-block d-block d-md-none">
+                                <img src="./assets/icone/chooseus4.svg" alt="">
+                            </div>
+                            <div class="opossite">
+                                <h5> Integrated Supplier </h5>
+                                <div class="why-dash text-end"></div>
+                                <p class="mt-2">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                            <div class="ms-2 d-sm-none d-none d-md-block">
+                                <img src="./assets/icone/chooseus4.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="d-md-flex d-sm-block d-block">
+                            <div class="ms-2 d-sm-block d-block d-md-none">
+                                <img src="./assets/icone/chooseus5.svg" alt="">
+                            </div>
+                            <div class="opossite">
+                                <h5> Sustainable Practice </h5>
+                                <div class="why-dash text-end"></div>
+                                <p class="mt-2">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                            <div class="ms-2 d-sm-none d-none d-md-block">
+                                <img src="./assets/icone/chooseus5.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="d-md-flex d-sm-block d-block">
+                            <div class="ms-2 d-sm-block d-block d-md-none">
+                                <img src="./assets/icone/chooseus6.svg" alt="">
+                            </div>
+                            <div class="opossite">
+                                <h5> The Benefits Only </h5>
+                                <div class="why-dash text-end"></div>
+                                <p class="mt-3">
+                                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                                </p>
+                            </div>
+                            <div class="ms-2 d-sm-none d-none d-md-block">
+                                <img src="./assets/icone/chooseus6.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why choose us section ends -->
+
+    <!-- Footer Section -->
+
+    <section>
+        <footer class="p-5 bg-dark text-white text-center mt-5">
+            <div class="container">
+                <!-- Logo and Title Div -->
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-auto mb-3">
+                        <img src="./assets/images/logo.png" alt="Logo" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-auto">
+                        <h3>Fruits Bust</h3>
+                    </div>
+                </div>
+
+                <!-- Links Div -->
+                <div class="container">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-12 col-md-6">
+                            <a href="#" class="text-decoration-none text-white mx-2">Home</a>
+                            <a href="#" class="text-decoration-none text-white mx-2">About Us</a>
+                            <a href="#" class="text-decoration-none text-white mx-2">Shop</a>
+                            <a href="#" class="text-decoration-none text-white mx-2">All Fruits</a>
+                            <a href="#" class="text-decoration-none text-white mx-2">Support</a>
+                            <a href="#" class="text-decoration-none text-white mx-2">My Account</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Icons Div -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6">
+                        <i class="fa-brands mx-2 mt-5 fs-3 text fa-facebook"></i>
+                        <i class="fa-brands mx-2 mt-5 fs-3 text fa-twitter"></i>
+                        <i class="fa-brands mx-2 mt-5 fs-3 text fa-youtube"></i>
+                        <i class="fa-brands mx-2 mt-5 fs-3 text fa-linkedin"></i>
+                        <i class="fa-brands mx-2 mt-5 fs-3 text fa-instagram"></i>
+                        <i class="fa-brands mx-2 mt-5 fs-3 text fa-apple"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- footer section end -->
+
+    <!-- bootstrap js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
